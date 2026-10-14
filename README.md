@@ -1,4 +1,3 @@
-# alcohol-consumption-dashboard-powerbi
 # The Last Round: Alcohol Consumption & Body Impact Dashboard (2026)
 
 An interactive **Power BI** dashboard that looks at alcohol consumption across Indian regions, brands and drink categories, and links drinking levels to their effect on the body.
@@ -10,10 +9,10 @@ An interactive **Power BI** dashboard that looks at alcohol consumption across I
 ## Dashboard Preview
 
 ### Healthy view (Low intake)
-![Healthy view](screenshots/dashboard_healthy.png)
+![Healthy view](dashboard_healthy.png)
 
 ### Damaged view (Heavy intake)
-![Damaged view](screenshots/dashboard_damaged.png)
+![Damaged view](dashboard_damaged.png)
 
 ---
 
@@ -61,20 +60,17 @@ The data lives in `Alcohol_Consumption_2026.xlsx`.
 
 ---
 
-## Repository structure
+## Files in this repository
 
 ```
-the-last-round/
+the-last-round-power-bi-dashboard/
 ├── README.md
 ├── The_Last_Round_Alcohol_Dashboard_2026.pbix
-├── data/
-│   └── Alcohol_Consumption_2026.xlsx
-├── screenshots/
-│   ├── dashboard_healthy.png
-│   └── dashboard_damaged.png
-└── assets/
-    ├── body_healthy.png
-    └── body_damaged_png.png
+├── Alcohol_Consumption_2026.xlsx
+├── dashboard_healthy.png
+├── dashboard_damaged.png
+├── body_healthy.png
+└── body_damaged_png.png
 ```
 
 ## How to open it
@@ -82,7 +78,7 @@ the-last-round/
 1. Download `The_Last_Round_Alcohol_Dashboard_2026.pbix`.
 2. Open it in **Power BI Desktop** (free from Microsoft).
 3. Hold **Ctrl** and click **Healthy** or **Damaged** to switch the body view.
-4. If Power BI asks about the data source, click **Transform data > Data source settings** and point it to `data/Alcohol_Consumption_2026.xlsx`.
+4. If Power BI asks about the data source, click **Transform data > Data source settings** and point it to `Alcohol_Consumption_2026.xlsx`.
 
 ---
 
